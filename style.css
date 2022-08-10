@@ -1,0 +1,83 @@
+body {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: rgb(119, 177, 169);
+}
+
+#quote-box {
+  margin: auto;
+  /* padding: auto; */
+  text-align: center;
+  border-radius: 3px;
+  position: relative;
+  width: 450px;
+  padding: 40px 50px;
+  display: table;
+  background-color: #fff;
+}
+
+#text {
+  text-align: center;
+  width: 450px;
+  height: auto;
+  clear: both;
+  font-weight: 500;
+  font-size: 1.75em;
+}
+
+#author {
+  width: 450px;
+  height: auto;
+  clear: both;
+  padding-top: 20px;
+  font-size: 1em;
+  text-align: right;
+}
+
+#buttons {
+  position: sticky;
+  padding: 4vw;
+  margin: 4vw;
+}
+
+.fa {
+  padding: 10px;
+  font-size: 30px;
+  width: 20px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  float: left;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-twitter {
+  background: #55acee;
+  color: white;
+}
+
+.fa-tumblr {
+  background: #2c4762;
+  color: white;
+}
+
+#new-quote {
+  float: right;
+  width: 100px;
+  height: 35px;
+  margin-right: 30px;
+  margin-top: 10px;
+  background-color: rgb(196, 234, 236);
+  color: black;
+}
+
+.fa-quote-left:before {
+  content: '\f10d';
+}
